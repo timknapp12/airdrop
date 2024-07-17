@@ -21,7 +21,7 @@ const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
   const transferInstruction = SystemProgram.transfer({
     fromPubkey: fromKeypair.publicKey,
     toPubkey: toKeyPair.publicKey,
-    lamports: 2 * LAMPORTS_PER_SOL,
+    lamports: 1 * LAMPORTS_PER_SOL,
   });
 
   const tx = new Transaction().add(transferInstruction);
