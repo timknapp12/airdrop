@@ -1,5 +1,4 @@
 import { Keypair } from '@solana/web3.js';
-//Now we're going to create a new Keypair, like so:
 
 //Generate a new keypair
 let kp = Keypair.generate();
