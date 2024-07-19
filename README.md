@@ -4,7 +4,11 @@
 
 The link for the transaction is [here](https://explorer.solana.com/tx/38ZECGmjAbMYyC8t9DA5mvQzqhFPzmqo56sHta4C3ZzMbLmZotmhJHsJK8skuAWW15maC5eM3Rz8cKnq9NBtbmbf?cluster=devnet).
 
-## Steps to Execute
+- This repo is a collection of scripts in typescript files that demonstrate different actions that can be taken on the solana blockchain
+
+## Steps to execute each script in the repo
+
+- after cloning the repo, run `yarn` or `npm i` in your terminal to install the necessary dependencies
 
 ### 1. Key Generation
 
@@ -29,3 +33,21 @@ The link for the transaction is [here](https://explorer.solana.com/tx/38ZECGmjAb
 - **Script Location**: `emptyWallet.ts`
 - **Functionality**: This script will use a small portion for the transaction fee and then send the rest of the SOL from one wallet to a newly created wallet.
 - **Command**: Run `yarn emptyWallet` or `npm run emptyWallet` in your terminal.
+
+### 5. Init SPL Token
+
+- **Script Location**: `spl_init.ts`
+- **Functionality**: This script will create a mint for an SPL token and will return a mint address that can be found on the explorer
+- **Command**: Run `yarn spl_init` or `npm run spl_init` in your terminal.
+
+### 6. Mint SPL Token
+
+- **Script Location**: `spl_mint.ts`
+- **Functionality**: This script will actually mint a certain amount of SPL tokens and will return a mint signature that can be found on the explorer
+- **Command**: Run `yarn spl_mint` or `npm run spl_mint` in your terminal.
+
+### 7. Transfer SPL Token
+
+- **Script Location**: `spl_transfer.ts`
+- **Functionality**: This script will transfer a certain amount of SPL tokens from the newly created mint account to a newly generated wallet
+- **Command**: Run `yarn spl_transfer` or `npm run spl_transfer` in your terminal.

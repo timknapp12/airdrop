@@ -8,6 +8,9 @@
     "airdrop": "ts-node ./airdrop.ts",
     "transfer": "ts-node ./transfer.ts",
     "emptyWallet": "ts-node ./emptyWallet.ts",
+    "spl_init": "ts-node ./spl_init.ts",
+    "spl_mint": "ts-node ./spl_mint.ts",
+    "spl_transfer": "ts-node ./spl_transfer.ts",
     "enroll": "ts-node ./enroll.ts"
   },
   "dependencies": {
