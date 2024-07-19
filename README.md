@@ -51,3 +51,9 @@ The link for the transaction is [here](https://explorer.solana.com/tx/38ZECGmjAb
 - **Script Location**: `spl_transfer.ts`
 - **Functionality**: This script will transfer a certain amount of SPL tokens from the newly created mint account to a newly generated wallet
 - **Command**: Run `yarn spl_transfer` or `npm run spl_transfer` in your terminal.
+
+### 8. Enroll
+
+- **Script Location**: `enroll.ts`
+- **Functionality**: This script executes the program according to the IDL created by WBA as our final project to connect a githib account. The returned link for the transaction is found at the top of this `README.md`
+- **Command**: Run `yarn enroll` or `npm run enroll` in your terminal.
